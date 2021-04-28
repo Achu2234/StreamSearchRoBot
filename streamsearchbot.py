@@ -33,7 +33,7 @@ async def search(event):
                      )
 @torrentbot.on(events.NewMessage(pattern="^/repo$"))
 async def search(event):
-    await event.reply('<b><u>Here is My Repo</b></u> <code>https://github.com/StarkGang/StreamSearchRoBot</code>', parse_mode="HTML")
+    await event.reply('<b><u>My Dev</b></u> <code>https://t.me/Amalbiju154</code>', parse_mode="HTML")
 
 @torrentbot.on(events.InlineQuery(pattern=r"torrent (.*)"))
 async def inline_id_handler(event: events.InlineQuery.Event):
@@ -173,7 +173,7 @@ async def inline_handler(event):
         if query == None or " ": 
             resulte = builder.article(
                 title="Usage Guide.",
-                description="(C) @StarkGanG",
+                description="(C) @Amalbiju154",
                 text=f"**How To Use Me?** \n**Youtube :** `@{firstname} yt <query>` \n**Example :** `@{firstname} yt why we lose song` \n\n**Torrent :** `@{firstname} torrent <query>` \n**Example :** `@{firstname} torrent avengers endgame ` \n\n**JioSaavan :** `@{firstname} jm <query>` \n**Example :** `@{firstname} jm dilbaar`",
                 buttons=[
                       [Button.url("Contact Me", f"t.me/{firstname}")],
