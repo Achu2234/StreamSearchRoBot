@@ -5,7 +5,7 @@
 This Bot Can Be Found As [@StreamSearchRoBot](https://telegram.dog/StreamSearchRoBot) In Telegram 
 
 # Deploy
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/StarkGang/StreamSearchRoBot/blob/main)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Achu2234/StreamSearchRoBot)
 
 # Normal Way // HardWay
 ```python3
