@@ -24,7 +24,7 @@ torrentbot = bot.start(bot_token=Config.BOT_TOKEN)
 async def search(event):
     replied_user = await event.client(GetFullUserRequest(event.sender_id))
     firstname = replied_user.user.first_name
-    await event.reply(message=f"**Hello, {firstname}, I Am Inline Stream Search Bot.** \n**Using Me You Can Fetch Torrent Magnet, Youtube Videos Link, Jio Saavan Music Links** \n**(C) @STARKGANG**",
+    await event.reply(message=f"**Hello, {firstname}, I Am Inline Stream Search Bot.** \n**Using Me You Can Fetch Torrent Magnet, Youtube Videos Link, Jio Saavan Music Links** \n**(C) @Animemusicarchive6**",
                       buttons=[
                       [Button.switch_inline("Search Youtube", query="yt ", same_peer=True)],
                       [Button.switch_inline("Search Torrent", query="torrent ", same_peer=True)],
